@@ -12,7 +12,7 @@ var { PageMod } = require('sdk/page-mod');
 var { Panel } = require('sdk/panel');
 
 var popup = Panel({
-    contentURL: data.url('popup.html'),
+    contentURL: data.url('https://www.producthunt.com/tech/backseat-hunter'),
     onHide: function () {
         button.state('window', {checked: false});
     }
@@ -32,7 +32,7 @@ function handleClick(state) {
 // Create a button
 var button = ToggleButton({
     id: 'show-popup',
-    label: 'RSS Lector',
+    label: 'Backseat Hunter',
     icon: {
         '16': './images/icon-16.png',
         '32': './images/icon-32.png',
@@ -41,6 +41,7 @@ var button = ToggleButton({
     onClick: handleClick
     
 });
+
 
 // Create a content script
 var pageMod = PageMod({

@@ -1,0 +1,9 @@
+{
+    "name": "backseat-hunter",
+    "id": "extensionname@example.org",
+    "title": "Backseat Hunter",
+    "description": "Backseat Hunter firefox extension",
+    "author": "mohamed saleh",
+    "license": "MPL 2.0",
+    "version": "0.1.0"
+}
